@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Limits Fitness Gym — Lahore</title>
+  <meta name="description" content="Lahore's premium gym on Main Wahdat Road. Modern equipment, certified trainers, ladies hours. Join No Limits Fitness Gym today.">
+  <meta name="author" content="No Limits Fitness Gym">
+  <meta property="og:title" content="No Limits Fitness Gym — Lahore">
+  <meta property="og:description" content="Push past your limits at Lahore's premium fitness destination.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'oklch(0.13 0.01 20)',
+            foreground: 'oklch(0.98 0 0)',
+            card: 'oklch(0.17 0.012 20)',
+            primary: {
+              DEFAULT: 'oklch(0.62 0.24 27)',
+              foreground: 'oklch(0.99 0 0)',
+            },
+            secondary: {
+              DEFAULT: 'oklch(0.22 0.015 20)',
+              foreground: 'oklch(0.98 0 0)',
+            },
+            muted: {
+              DEFAULT: 'oklch(0.22 0.015 20)',
+              foreground: 'oklch(0.72 0.02 20)',
+            },
+            border: 'oklch(0.28 0.02 20)',
+            input: 'oklch(0.28 0.02 20)',
+          },
+          boxShadow: {
+            fire: '0 20px 60px -20px oklch(0.62 0.24 27 / 0.5)',
+            glow: '0 0 40px oklch(0.62 0.24 27 / 0.35)',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .font-display {
+      font-family: 'Oswald', 'Inter', sans-serif;
+      letter-spacing: -0.01em;
+    }
+    .text-fire {
+      background: linear-gradient(135deg, oklch(0.62 0.24 27), oklch(0.5 0.22 25));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .bg-grid {
+      background-image:
+        linear-gradient(oklch(1 0 0 / 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, oklch(1 0 0 / 0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    .bg-gradient-fire {
+      background: linear-gradient(135deg, oklch(0.62 0.24 27), oklch(0.5 0.22 25));
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-background text-foreground">
+
+  <!-- Nav -->
+  <header class="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-2">
+        <img src="images/logo.png" alt="No Limits Fitness Gym" class="h-10 w-10 object-contain" width="40" height="40">
+        <span class="font-display text-lg font-bold tracking-wide">
+          NO <span class="text-primary">LIMITS</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
+        <a href="#about" class="hover:text-foreground transition-colors">About</a>
+        <a href="#programs" class="hover:text-foreground transition-colors">Programs</a>
+        <a href="#facility" class="hover:text-foreground transition-colors">Facility</a>
+        <a href="#pricing" class="hover:text-foreground transition-colors">Pricing</a>
+        <a href="#contact" class="hover:text-foreground transition-colors">Contact</a>
+      </nav>
+      <a href="https://wa.me/923464410687?text=Hi%2C%20I%20want%20to%20join%20No%20Limits%20Fitness%20Gym." target="_blank" rel="noreferrer"
+        class="inline-flex items-center rounded-md bg-primary text-primary-foreground px-4 py-2 text-sm font-semibold hover:opacity-90 transition shadow-fire">
+        Join Now
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section id="top" class="relative min-h-screen flex items-center overflow-hidden">
+      <img src="images/hero-gym.jpg" alt="No Limits Fitness Gym interior" class="absolute inset-0 w-full h-full object-cover opacity-50" width="1920" height="1080">
+      <div class="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background"></div>
+      <div class="absolute inset-0 bg-grid opacity-40"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-32 pb-20 w-full">
+        <div class="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-3 py-1 text-xs uppercase tracking-widest text-primary">
+          <span class="h-1.5 w-1.5 rounded-full bg-primary animate-pulse"></span>
+          Lahore · Wahdat Road
+        </div>
+        <h1 class="font-display mt-6 text-6xl sm:text-7xl md:text-8xl font-bold leading-[0.95] uppercase max-w-4xl">
+          Push past <br> your <span class="text-fire">limits.</span>
+        </h1>
+        <p class="mt-6 text-lg text-muted-foreground max-w-xl">
+          Premium equipment. Certified trainers. A community that won't let you quit. Welcome to No Limits Fitness Gym — Lahore's hardest training floor.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://wa.me/923464410687?text=Hi%2C%20I%20want%20to%20join%20No%20Limits%20Fitness%20Gym." target="_blank" rel="noreferrer"
+            class="inline-flex items-center rounded-md bg-primary text-primary-foreground px-6 py-3 font-semibold shadow-fire hover:-translate-y-px transition">
+            Start Training →
+          </a>
+          <a href="#pricing" class="inline-flex items-center rounded-md border border-border bg-card/50 px-6 py-3 font-semibold hover:bg-card transition">
+            See Memberships
+          </a>
+        </div>
+        <div class="mt-14 grid grid-cols-3 gap-4 max-w-xl">
+          <div class="rounded-lg border border-border bg-card/40 backdrop-blur p-4">
+            <div class="font-display text-3xl text-primary">500+</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-1">Members</div>
+          </div>
+          <div class="rounded-lg border border-border bg-card/40 backdrop-blur p-4">
+            <div class="font-display text-3xl text-primary">12+</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-1">Trainers</div>
+          </div>
+          <div class="rounded-lg border border-border bg-card/40 backdrop-blur p-4">
+            <div class="font-display text-3xl text-primary">6</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-1">Days/Week</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-24 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
+        <div class="relative">
+          <img src="images/dumbbells.jpg" alt="Dumbbell rack" class="rounded-2xl border border-border" loading="lazy" width="1280" height="1280">
+          <div class="absolute -bottom-6 -right-6 hidden sm:block rounded-xl bg-primary text-primary-foreground p-6 shadow-fire">
+            <div class="font-display text-3xl">EST 2024</div>
+            <div class="text-xs uppercase tracking-widest opacity-80">Lahore</div>
+          </div>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-primary">About No Limits</div>
+          <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase">
+            Train hard. <br>Train smart. <span class="text-fire">Train here.</span>
+          </h2>
+          <p class="mt-5 text-muted-foreground leading-relaxed">
+            No Limits Fitness Gym is built for those who refuse average. We combine premium equipment,
+            certified coaching, and an atmosphere engineered for results — in the heart of Lahore.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-4 mt-8">
+            <div class="rounded-lg border border-border bg-card p-5">
+              <div class="font-semibold">Modern Equipment</div>
+              <div class="text-sm text-muted-foreground mt-1">Pro-grade racks, plates, machines &amp; cardio.</div>
+            </div>
+            <div class="rounded-lg border border-border bg-card p-5">
+              <div class="font-semibold">Certified Trainers</div>
+              <div class="text-sm text-muted-foreground mt-1">Coaches who actually know programming.</div>
+            </div>
+            <div class="rounded-lg border border-border bg-card p-5">
+              <div class="font-semibold">Clean &amp; Hygienic</div>
+              <div class="text-sm text-muted-foreground mt-1">Sanitized daily — spotless every session.</div>
+            </div>
+            <div class="rounded-lg border border-border bg-card p-5">
+              <div class="font-semibold">Real Community</div>
+              <div class="text-sm text-muted-foreground mt-1">A culture built to lift you up.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section id="programs" class="py-24 bg-secondary/30 border-y border-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-xs uppercase tracking-widest text-primary">What We Offer</div>
+        <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase max-w-2xl">
+          Programs built for <span class="text-fire">results</span>
+        </h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+          <div class="group rounded-xl border border-border bg-card p-6 hover:border-primary/60 hover:shadow-glow transition">
+            <div class="text-3xl">💪</div>
+            <h3 class="font-display mt-4 text-xl uppercase font-semibold">Strength Training</h3>
+            <p class="text-sm text-muted-foreground mt-2 leading-relaxed">Premium free weights, racks &amp; coaching to build raw power.</p>
+          </div>
+          <div class="group rounded-xl border border-border bg-card p-6 hover:border-primary/60 hover:shadow-glow transition">
+            <div class="text-3xl">🏃</div>
+            <h3 class="font-display mt-4 text-xl uppercase font-semibold">Cardio Zone</h3>
+            <p class="text-sm text-muted-foreground mt-2 leading-relaxed">Modern treadmills, ellipticals &amp; bikes — burn fat efficiently.</p>
+          </div>
+          <div class="group rounded-xl border border-border bg-card p-6 hover:border-primary/60 hover:shadow-glow transition">
+            <div class="text-3xl">🏋️</div>
+            <h3 class="font-display mt-4 text-xl uppercase font-semibold">Muscle Building</h3>
+            <p class="text-sm text-muted-foreground mt-2 leading-relaxed">Hypertrophy programs to pack on lean mass.</p>
+          </div>
+          <div class="group rounded-xl border border-border bg-card p-6 hover:border-primary/60 hover:shadow-glow transition">
+            <div class="text-3xl">🔥</div>
+            <h3 class="font-display mt-4 text-xl uppercase font-semibold">Weight Loss</h3>
+            <p class="text-sm text-muted-foreground mt-2 leading-relaxed">Custom cardio + diet plans that deliver real results.</p>
+          </div>
+          <div class="group rounded-xl border border-border bg-card p-6 hover:border-primary/60 hover:shadow-glow transition">
+            <div class="text-3xl">🎯</div>
+            <h3 class="font-display mt-4 text-xl uppercase font-semibold">Personal Training</h3>
+            <p class="text-sm text-muted-foreground mt-2 leading-relaxed">1-on-1 coaching with elite trainers.</p>
+          </div>
+          <div class="group rounded-xl border border-border bg-card p-6 hover:border-primary/60 hover:shadow-glow transition">
+            <div class="text-3xl">💗</div>
+            <h3 class="font-display mt-4 text-xl uppercase font-semibold">Ladies Fitness</h3>
+            <p class="text-sm text-muted-foreground mt-2 leading-relaxed">Dedicated ladies-only timings in a safe environment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facility -->
+    <section id="facility" class="py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="flex items-end justify-between flex-wrap gap-4">
+          <div>
+            <div class="text-xs uppercase tracking-widest text-primary">Inside No Limits</div>
+            <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase">
+              Step inside <span class="text-fire">the floor</span>
+            </h2>
+          </div>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+          <div class="group relative overflow-hidden rounded-xl border border-border aspect-[4/5]">
+            <img src="images/reception.jpg" alt="Reception" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" width="1280" height="960">
+            <div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
+            <div class="absolute bottom-0 p-5">
+              <div class="text-xs uppercase tracking-widest text-primary">Premium welcome</div>
+              <div class="font-display text-2xl uppercase mt-1">Reception</div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-xl border border-border aspect-[4/5]">
+            <img src="images/cardio.jpg" alt="Cardio Zone" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" width="1280" height="960">
+            <div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
+            <div class="absolute bottom-0 p-5">
+              <div class="text-xs uppercase tracking-widest text-primary">Modern equipment</div>
+              <div class="font-display text-2xl uppercase mt-1">Cardio Zone</div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-xl border border-border aspect-[4/5]">
+            <img src="images/strength.jpg" alt="Power Rack" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" width="1280" height="960">
+            <div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
+            <div class="absolute bottom-0 p-5">
+              <div class="text-xs uppercase tracking-widest text-primary">Heavy iron</div>
+              <div class="font-display text-2xl uppercase mt-1">Power Rack</div>
+            </div>
+          </div>
+          <div class="group relative overflow-hidden rounded-xl border border-border aspect-[4/5]">
+            <img src="images/functional.jpg" alt="Functional Area" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" width="1280" height="960">
+            <div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
+            <div class="absolute bottom-0 p-5">
+              <div class="text-xs uppercase tracking-widest text-primary">Train explosive</div>
+              <div class="font-display text-2xl uppercase mt-1">Functional Area</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-24 bg-secondary/30 border-y border-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-xs uppercase tracking-widest text-primary">Memberships</div>
+        <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase max-w-2xl">
+          Pick your <span class="text-fire">power plan</span>
+        </h2>
+        <p class="mt-4 text-muted-foreground">No hidden charges. Just real training, real results.</p>
+        <div class="grid lg:grid-cols-3 gap-6 mt-12">
+
+          <!-- Regular -->
+          <div class="relative rounded-2xl border border-border bg-card p-6 flex flex-col">
+            <h3 class="font-display text-2xl uppercase">Regular</h3>
+            <p class="text-sm text-muted-foreground mt-2">Full gym access — all the essentials.</p>
+            <ul class="mt-6 space-y-3 flex-1">
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">1 Month</div>
+                </div>
+                <div class="font-display text-lg">PKR 4,500</div>
+              </li>
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">3 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 11%</div>
+                </div>
+                <div class="font-display text-lg">PKR 12,000</div>
+              </li>
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">6 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 19%</div>
+                </div>
+                <div class="font-display text-lg">PKR 22,000</div>
+              </li>
+              <li class="flex items-baseline justify-between pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">12 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 26%</div>
+                </div>
+                <div class="font-display text-lg">PKR 40,000</div>
+              </li>
+            </ul>
+            <a href="https://wa.me/923464410687?text=Hi%2C%20I%20want%20to%20join%20No%20Limits%20Fitness%20Gym%20(Regular%20Membership)." target="_blank" rel="noreferrer"
+              class="mt-6 inline-flex items-center justify-center rounded-md px-4 py-3 font-semibold transition border border-border bg-background hover:bg-secondary">
+              Join Regular →
+            </a>
+          </div>
+
+          <!-- Executive -->
+          <div class="relative rounded-2xl border border-primary bg-card p-6 flex flex-col shadow-fire">
+            <div class="absolute -top-3 left-6 rounded-full bg-primary text-primary-foreground text-xs font-semibold px-3 py-1 uppercase tracking-widest">Best Value</div>
+            <h3 class="font-display text-2xl uppercase">Executive</h3>
+            <p class="text-sm text-muted-foreground mt-2">Premium — PT sessions, diet plan &amp; priority support.</p>
+            <ul class="mt-6 space-y-3 flex-1">
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">1 Month</div>
+                </div>
+                <div class="font-display text-lg">PKR 7,000</div>
+              </li>
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">3 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 14%</div>
+                </div>
+                <div class="font-display text-lg">PKR 18,000</div>
+              </li>
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">6 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 24%</div>
+                </div>
+                <div class="font-display text-lg">PKR 32,000</div>
+              </li>
+              <li class="flex items-baseline justify-between pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">12 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 29%</div>
+                </div>
+                <div class="font-display text-lg">PKR 60,000</div>
+              </li>
+            </ul>
+            <a href="https://wa.me/923464410687?text=Hi%2C%20I%20want%20to%20join%20No%20Limits%20Fitness%20Gym%20(Executive%20Membership)." target="_blank" rel="noreferrer"
+              class="mt-6 inline-flex items-center justify-center rounded-md px-4 py-3 font-semibold transition bg-primary text-primary-foreground hover:opacity-90">
+              Join Executive →
+            </a>
+          </div>
+
+          <!-- Female -->
+          <div class="relative rounded-2xl border border-border bg-card p-6 flex flex-col">
+            <h3 class="font-display text-2xl uppercase">Female</h3>
+            <p class="text-sm text-muted-foreground mt-2">Dedicated ladies-only timings — safe &amp; professional.</p>
+            <ul class="mt-6 space-y-3 flex-1">
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">1 Month</div>
+                </div>
+                <div class="font-display text-lg">PKR 5,000</div>
+              </li>
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">3 Months</div>
+                  <div class="text-[10px] uppercase tracking-widest text-primary mt-0.5">Save 10%</div>
+                </div>
+                <div class="font-display text-lg">PKR 13,500</div>
+              </li>
+              <li class="flex items-baseline justify-between border-b border-border/60 pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">Ladies hours</div>
+                </div>
+                <div class="font-display text-lg">9 AM – 3 PM</div>
+              </li>
+              <li class="flex items-baseline justify-between pb-3">
+                <div>
+                  <div class="text-sm text-muted-foreground">Equipment</div>
+                </div>
+                <div class="font-display text-lg">Full access</div>
+              </li>
+            </ul>
+            <a href="https://wa.me/923464410687?text=Hi%2C%20I%20want%20to%20join%20No%20Limits%20Fitness%20Gym%20(Female%20Membership)." target="_blank" rel="noreferrer"
+              class="mt-6 inline-flex items-center justify-center rounded-md px-4 py-3 font-semibold transition border border-border bg-background hover:bg-secondary">
+              Join Female →
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Timings -->
+    <section class="py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-xs uppercase tracking-widest text-primary">Gym Timings</div>
+        <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase">
+          Open when <span class="text-fire">you are</span>
+        </h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
+          <div class="rounded-xl border border-border bg-card p-6">
+            <div class="text-2xl">🌅</div>
+            <div class="mt-3 font-display text-lg uppercase">Boys — Morning</div>
+            <div class="text-primary font-semibold mt-1">6:30 AM – 9:00 AM</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-2">Early grind</div>
+          </div>
+          <div class="rounded-xl border border-border bg-card p-6">
+            <div class="text-2xl">💗</div>
+            <div class="mt-3 font-display text-lg uppercase">Ladies Hours</div>
+            <div class="text-primary font-semibold mt-1">9:00 AM – 3:00 PM</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-2">Ladies only</div>
+          </div>
+          <div class="rounded-xl border border-border bg-card p-6">
+            <div class="text-2xl">🌙</div>
+            <div class="mt-3 font-display text-lg uppercase">Boys — Evening</div>
+            <div class="text-primary font-semibold mt-1">4:00 PM – 11:00 PM</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-2">Peak hours</div>
+          </div>
+          <div class="rounded-xl border border-border bg-card p-6">
+            <div class="text-2xl">🛌</div>
+            <div class="mt-3 font-display text-lg uppercase">Off Day</div>
+            <div class="text-primary font-semibold mt-1">Friday</div>
+            <div class="text-xs uppercase tracking-widest text-muted-foreground mt-2">Recovery</div>
+          </div>
+        </div>
+        <p class="mt-6 text-xs uppercase tracking-widest text-muted-foreground">Boys are not allowed during ladies hours.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-24 bg-secondary/30 border-y border-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-xs uppercase tracking-widest text-primary">Testimonials</div>
+        <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase">
+          Built by <span class="text-fire">champions</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-5 mt-10">
+          <figure class="rounded-xl border border-border bg-card p-6">
+            <div class="text-primary tracking-widest">★★★★★</div>
+            <blockquote class="mt-3 text-lg">Lost 14kg in 5 months. The trainers actually know what they're doing.</blockquote>
+            <figcaption class="mt-3 text-sm text-muted-foreground">— Adeel R.</figcaption>
+          </figure>
+          <figure class="rounded-xl border border-border bg-card p-6">
+            <div class="text-primary tracking-widest">★★★★★</div>
+            <blockquote class="mt-3 text-lg">Ladies hours felt safe and professional. Best in Wahdat Road area.</blockquote>
+            <figcaption class="mt-3 text-sm text-muted-foreground">— Ayesha K.</figcaption>
+          </figure>
+          <figure class="rounded-xl border border-border bg-card p-6">
+            <div class="text-primary tracking-widest">★★★★★</div>
+            <blockquote class="mt-3 text-lg">Executive plan is worth every rupee. Diet plan changed my life.</blockquote>
+            <figcaption class="mt-3 text-sm text-muted-foreground">— Bilal H.</figcaption>
+          </figure>
+          <figure class="rounded-xl border border-border bg-card p-6">
+            <div class="text-primary tracking-widest">★★★★★</div>
+            <blockquote class="mt-3 text-lg">Equipment is top-tier and the place is spotless. Real results.</blockquote>
+            <figcaption class="mt-3 text-sm text-muted-foreground">— Hassan M.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-fire opacity-90"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+        <div>
+          <h3 class="font-display text-3xl sm:text-4xl font-bold uppercase text-primary-foreground">
+            Ready to push past your limits?
+          </h3>
+          <p class="text-primary-foreground/90 mt-2">Talk to us on WhatsApp — we'll set you up today.</p>
+        </div>
+        <a href="https://wa.me/923464410687?text=Hi%2C%20I%20want%20to%20start%20training%20at%20No%20Limits%20Fitness%20Gym." target="_blank" rel="noreferrer"
+          class="inline-flex items-center rounded-md bg-background text-foreground px-6 py-3 font-semibold hover:opacity-90 transition">
+          Message on WhatsApp →
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12">
+        <div>
+          <div class="text-xs uppercase tracking-widest text-primary">Visit Us</div>
+          <h2 class="font-display mt-3 text-4xl sm:text-5xl font-bold uppercase">
+            Find <span class="text-fire">No Limits</span>
+          </h2>
+          <div class="mt-8 space-y-5">
+            <div class="rounded-xl border border-border bg-card p-5">
+              <div class="text-xs uppercase tracking-widest text-muted-foreground">Location</div>
+              <p class="mt-2">Bank Muqarma Basement, near Abrarr Centre, Main Wahdat Road, Lahore</p>
+              <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Bank%20Muqarma%20Basement%2C%20near%20Abrarr%20Centre%2C%20Main%20Wahdat%20Road%2C%20Lahore"
+                target="_blank" rel="noreferrer" class="text-primary text-sm font-semibold mt-3 inline-block">
+                Get Directions →
+              </a>
+            </div>
+            <div class="rounded-xl border border-border bg-card p-5">
+              <div class="text-xs uppercase tracking-widest text-muted-foreground">Call Us</div>
+              <a href="tel:923464410687" class="mt-2 block font-display text-2xl text-primary">+92 346 4410687</a>
+            </div>
+            <div class="rounded-xl border border-border bg-card p-5">
+              <div class="text-xs uppercase tracking-widest text-muted-foreground">Hours</div>
+              <p class="mt-2">Mon–Sat · 6:30 AM – 11:00 PM</p>
+              <p class="text-sm text-muted-foreground">Closed Friday</p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-border min-h-[400px] bg-card">
+          <iframe
+            title="No Limits Fitness Gym location"
+            class="w-full h-full min-h-[400px]"
+            loading="lazy"
+            src="https://www.google.com/maps?q=Bank%20Muqarma%20Basement%2C%20near%20Abrarr%20Centre%2C%20Main%20Wahdat%20Road%2C%20Lahore&amp;output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+      <div class="flex items-center gap-2">
+        <img src="images/logo.png" alt="" class="h-8 w-8 object-contain" width="32" height="32">
+        <span class="font-display uppercase tracking-wide text-foreground">No Limits Fitness Gym</span>
+      </div>
+      <div>© 2026 No Limits Fitness Gym · Lahore</div>
+    </div>
+  </footer>
+
+</body>
+</html>

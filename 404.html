@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — No Limits Fitness Gym</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: 'oklch(0.13 0.01 20)',
+            foreground: 'oklch(0.98 0 0)',
+            primary: {
+              DEFAULT: 'oklch(0.62 0.24 27)',
+              foreground: 'oklch(0.99 0 0)',
+            },
+            muted: {
+              foreground: 'oklch(0.72 0.02 20)',
+            },
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+</head>
+<body class="flex min-h-screen items-center justify-center bg-background px-4">
+  <div class="max-w-md text-center">
+    <h1 class="text-7xl font-bold text-foreground">404</h1>
+    <h2 class="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+    <p class="mt-2 text-sm text-muted-foreground">
+      The page you're looking for doesn't exist or has been moved.
+    </p>
+    <div class="mt-6">
+      <a href="index.html"
+        class="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:opacity-90">
+        Go home
+      </a>
+    </div>
+  </div>
+</body>
+</html>
